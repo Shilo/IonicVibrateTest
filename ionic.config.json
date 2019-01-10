@@ -1,0 +1,7 @@
+{
+  "name": "IonicVibrateTest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

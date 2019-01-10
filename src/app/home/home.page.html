@@ -1,0 +1,11 @@
+<ion-header (click)="vibrate()">
+  <ion-toolbar>
+    <ion-title>
+      Touch To Vibrate
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding (click)="vibrate()">
+  <div [hidden]="!isVibrating">Vibrating for {{vibrationDuration}} milliseconds...</div>
+</ion-content>
